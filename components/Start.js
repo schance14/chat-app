@@ -114,7 +114,7 @@ const styles = StyleSheet.create({
   },
   chooseColorText: {
     fontSize: 16,
-    fontWeight: 300,
+    fontWeight: "300",
     color: "#757083",
     opacity: 100,
     alignSelf: "flex-start",
