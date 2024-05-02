@@ -7,6 +7,8 @@ import {
   Button,
   TextInput,
   TouchableOpacity,
+  KeyboardAvoidingView,
+  Platform,
 } from "react-native";
 
 const Start = ({ navigation }) => {
@@ -77,6 +79,9 @@ const Start = ({ navigation }) => {
           <Text style={styles.buttonText}>Start Chatting</Text>
         </TouchableOpacity>
       </View>
+      {Platform.OS === "ios" ? (
+        <KeyboardAvoidingView behavior="padding" />
+      ) : null}
     </ImageBackground>
   );
 };
