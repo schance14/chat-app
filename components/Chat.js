@@ -1,13 +1,7 @@
 import { useEffect, useState } from "react";
 import CustomActions from "./CustomActions";
 import MapView from "react-native-maps";
-import {
-  StyleSheet,
-  View,
-  Text,
-  Platform,
-  KeyboardAvoidingView,
-} from "react-native";
+import { StyleSheet, View, Platform, KeyboardAvoidingView } from "react-native";
 import { GiftedChat, Bubble, InputToolbar } from "react-native-gifted-chat";
 import {
   collection,
@@ -118,9 +112,14 @@ const Chat = ({ route, navigation, db, isConnected, storage }) => {
 
   // component to view chat room
   return (
-    <View style={styles.outerView}>
+    <View
+      style={[
+        styles.outerView,
+        { backgroundColor: route.params.backgroundColor },
+      ]}
+    >
       <GiftedChat
-        style={[styles.container, { backgroundColor: backgroundColor }]}
+        style={styles.container}
         messages={messages}
         renderBubble={renderBubble}
         renderInputToolbar={renderInputToolbar}
