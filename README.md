@@ -15,9 +15,6 @@ ChatMe is a texting application that allows users to text their friends, send pi
 - Data stored via Google Firestore Database
 - User Authentication via Google Firebase authentication
 - Chat interface and functoinalty via Gifted Chat library
-  
-
-![IMG_0705](https://github.com/schance14/chat-app/assets/123523296/e4b82aa4-a5f0-40f9-a07e-6f0b168d3bd6)
 
 
-![IMG_0706](https://github.com/schance14/chat-app/assets/123523296/bb44d3f6-f4bc-4a5f-9b13-8d3ab0f99742)
+  ![IMG_0706](https://github.com/schance14/chat-app/assets/123523296/3ed86721-1457-4533-8747-3c1bd702ff9a)
