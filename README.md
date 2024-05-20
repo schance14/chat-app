@@ -17,4 +17,12 @@ ChatMe is a texting application that allows users to text their friends, send pi
 - Chat interface and functoinalty via Gifted Chat library
 
 
-  ![IMG_0706](https://github.com/schance14/chat-app/assets/123523296/3ed86721-1457-4533-8747-3c1bd702ff9a)
+## Preview:
+
+
+![IMG_0705](https://github.com/schance14/chat-app/assets/123523296/28949c33-6184-4f4f-901a-9c6b9ceb139a)
+
+
+![IMG_0706 2](https://github.com/schance14/chat-app/assets/123523296/f8b1a64a-e06a-478a-8e16-aa3026394b1f)
+
+
